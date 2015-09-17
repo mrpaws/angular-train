@@ -1,0 +1,40 @@
+{
+  "name": "angular-train",
+  "version": "0.0.1",
+  "description": "angular-train is an attempt at learning angular",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrpaws/angular-train.git"
+  },
+  "keywords": [
+    "angular",
+    "html5",
+    "angularjs",
+    "training"
+  ],
+  "author": "mrpaws",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrpaws/angular-train/issues"
+  },
+  "homepage": "https://github.com/mrpaws/angular-train",
+  "devDependencies": {
+    "bower": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-jshint": "latest",
+    "gulp-livereload": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "main-bower-files": "latest",
+    "opn": "latest"
+  },
+  "dependencies": {}
+}

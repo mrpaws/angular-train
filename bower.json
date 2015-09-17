@@ -1,0 +1,35 @@
+{
+  "name": "angular-train",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mrpaws/angular-train",
+  "authors": [
+    "paws <paws@delimitize.com>"
+  ],
+  "description": "attempt at learning angular",
+  "main": "js/angular-train.js",
+  "keywords": [
+    "angularjs",
+    "angular",
+    "learning",
+    "html5",
+    "gulp",
+    "bower",
+    "node",
+    "npm",
+    "web",
+    "webapp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "dist"
+  ],
+  "dependencies": {
+    "angular": "*"
+  }
+}
