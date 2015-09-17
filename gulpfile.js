@@ -30,14 +30,14 @@ gulp.task('linkBowerFiles', ['clean','processJs'], function () {
     .pipe($.connect.reload());
 })
 
-/* process js */
+/* js post-processing */
 gulp.task('processJs', ['clean'], function () {
   return gulp.src('app/js/**/*.js')
     .pipe($.concat('project.js'))
     .pipe(gulp.dest(buildDir + '/js'));
 });
 
-/* process html */
+/* html post-processing */
 gulp.task('html',function () {
   return gulp.src('app/*.html')
     .pipe(gulp.dest(destDir))
@@ -58,7 +58,7 @@ gulp.task('media', function () {
     .pipe($.connect.reload());
 });
 
-/* media asset post-processing */
+/* browser reloading */
 gulp.task('connect', function() {
   $.connect.server({
     root: distDir,

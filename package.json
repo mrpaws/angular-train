@@ -34,7 +34,8 @@
     "gulp-rename": "latest",
     "gulp-uglify": "latest",
     "main-bower-files": "latest",
-    "opn": "latest"
+    "opn": "latest",
+    "twitter-bootstrap": "^2.1.1"
   },
   "dependencies": {}
 }
